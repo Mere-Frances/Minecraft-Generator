@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Block 1", "color": "white", "image": "images/stone.webp" },
+  { "id": 2, "name": "Block 2", "color": "white", "image": "./images/birch-wood.webp" },
+  { "id": 3, "name": "Block 3", "color": "white", "image": "images/birch-planks.webp" },
+  { "id": 4, "name": "Block 4", "color": "white", "image": "./images/brick.webp" },
+  { "id": 5, "name": "Block 5", "color": "brown", "image": "images/dirt.webp" },
+  { "id": 6, "name": "Block 6", "color": "white", "image": "./images/leaves.webp" },
+  { "id": 7, "name": "Block 7", "color": "brown", "image": "images/oak-planks.webp" },
+  { "id": 8, "name": "Block 8", "color": "brown", "image": "./images/oak-wood.webp" },
+  { "id": 9, "name": "Block 9", "color": "white", "image": "images/smooth-stone.webp" },
+  { "id": 10, "name": "Block 10", "color": "brown", "image": "./images/spruce-wood.webp" }
+]

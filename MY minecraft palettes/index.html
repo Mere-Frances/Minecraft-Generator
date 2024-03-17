@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./blocks.json">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Responsiveness Nav Start -->
+
+    <nav class="nav-bar">
+        <div class="nav-bar-container">
+            <a href="#Header" id="#" class="nav-link">Home</a>
+            <a href="#paletteGenerator" id="" class="nav-link">Generator</a>
+            <div class="logo-container">
+                <img src="" alt="" />
+            </div>
+            <a href="#palettePreview" class="nav-link">Featured</a>
+            <a href="" id="#" class="nav-link">Misc?</a>
+        </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Tenth navbar example">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#paletteGenerator">Generator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active logo-container" aria-current="page" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#palettePreview">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./palettes.html">Explore</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+
+    <header class="header-hero">
+        <div class="header-container">
+            <img src="./images/maintitle2.png" alt="minecraft palettes generator title" height="350rem">
+            <p>Create, share and explore a variety of user made minecraft block palettes to use in your very own
+                creations.</p>
+            <button class="btn universal-btn"><a href="#paletteGenerator" class="startGenerating-btn">Start
+                    Generating</a></button>
+        </div>
+    </header>
+
+
+    <!-- start of palette generator -->
+    <section class="palette-generator-section" id="paletteGenerator">
+        <img src="./images/bee2.png" alt="minecraft bee png" class="first-bee-img">
+        <h2>Generator</h2>
+        <button class="btn randomize-btn">Randomize</button>
+        <div class="generator-container-grid">
+            <div class="palette">
+                <div class="block-container" id="block1">
+                    <div class="grid-item-add" id="addItem">
+                        <svg class="add-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40"
+                            x="0px" y="0px">
+                            <title>plus-box</title>
+                            <path
+                                d="M8 14.857c-0.005 0-0.010 0-0.016 0-0.631 0-1.143 0.511-1.143 1.143s0.511 1.143 1.143 1.143c0.006 0 0.011 0 0.017 0h15.998c0.005 0 0.010 0 0.016 0 0.631 0 1.143-0.511 1.143-1.143s-0.511-1.143-1.143-1.143c-0.006 0-0.011 0-0.017 0z" />
+                            <path
+                                d="M17.143 8c0-0.005 0-0.010 0-0.016 0-0.631-0.511-1.143-1.143-1.143s-1.143 0.511-1.143 1.143c0 0.006 0 0.011 0 0.017v-0.001 15.999c0 0.005 0 0.010 0 0.016 0 0.631 0.511 1.143 1.143 1.143s1.143-0.511 1.143-1.143c0-0.006 0-0.011 0-0.017v0.001z" />
+                            <path
+                                d="M1.143 0c-0.631 0-1.143 0.511-1.143 1.143v0 29.713c0 0.631 0.512 1.143 1.143 1.143h29.713c0.631 0 1.143-0.511 1.143-1.143v0-29.713c0-0.631-0.511-1.143-1.143-1.143zM2.286 2.286h27.428v27.428h-27.428z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="block-container" id="block2">
+                    <div class="grid-item-add" id="addItem">
+                        <svg class="add-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40"
+                            x="0px" y="0px">
+                            <title>plus-box</title>
+                            <path
+                                d="M8 14.857c-0.005 0-0.010 0-0.016 0-0.631 0-1.143 0.511-1.143 1.143s0.511 1.143 1.143 1.143c0.006 0 0.011 0 0.017 0h15.998c0.005 0 0.010 0 0.016 0 0.631 0 1.143-0.511 1.143-1.143s-0.511-1.143-1.143-1.143c-0.006 0-0.011 0-0.017 0z" />
+                            <path
+                                d="M17.143 8c0-0.005 0-0.010 0-0.016 0-0.631-0.511-1.143-1.143-1.143s-1.143 0.511-1.143 1.143c0 0.006 0 0.011 0 0.017v-0.001 15.999c0 0.005 0 0.010 0 0.016 0 0.631 0.511 1.143 1.143 1.143s1.143-0.511 1.143-1.143c0-0.006 0-0.011 0-0.017v0.001z" />
+                            <path
+                                d="M1.143 0c-0.631 0-1.143 0.511-1.143 1.143v0 29.713c0 0.631 0.512 1.143 1.143 1.143h29.713c0.631 0 1.143-0.511 1.143-1.143v0-29.713c0-0.631-0.511-1.143-1.143-1.143zM2.286 2.286h27.428v27.428h-27.428z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="block-container" id="block3">
+                    <div class="grid-item-add" id="addItem">
+                        <svg class="add-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40"
+                            x="0px" y="0px">
+                            <title>plus-box</title>
+                            <path
+                                d="M8 14.857c-0.005 0-0.010 0-0.016 0-0.631 0-1.143 0.511-1.143 1.143s0.511 1.143 1.143 1.143c0.006 0 0.011 0 0.017 0h15.998c0.005 0 0.010 0 0.016 0 0.631 0 1.143-0.511 1.143-1.143s-0.511-1.143-1.143-1.143c-0.006 0-0.011 0-0.017 0z" />
+                            <path
+                                d="M17.143 8c0-0.005 0-0.010 0-0.016 0-0.631-0.511-1.143-1.143-1.143s-1.143 0.511-1.143 1.143c0 0.006 0 0.011 0 0.017v-0.001 15.999c0 0.005 0 0.010 0 0.016 0 0.631 0.511 1.143 1.143 1.143s1.143-0.511 1.143-1.143c0-0.006 0-0.011 0-0.017v0.001z" />
+                            <path
+                                d="M1.143 0c-0.631 0-1.143 0.511-1.143 1.143v0 29.713c0 0.631 0.512 1.143 1.143 1.143h29.713c0.631 0 1.143-0.511 1.143-1.143v0-29.713c0-0.631-0.511-1.143-1.143-1.143zM2.286 2.286h27.428v27.428h-27.428z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="block-container" id="block4">
+                    <div class="grid-item-add" id="addItem">
+                        <svg class="add-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40"
+                            x="0px" y="0px">
+                            <title>plus-box</title>
+                            <path
+                                d="M8 14.857c-0.005 0-0.010 0-0.016 0-0.631 0-1.143 0.511-1.143 1.143s0.511 1.143 1.143 1.143c0.006 0 0.011 0 0.017 0h15.998c0.005 0 0.010 0 0.016 0 0.631 0 1.143-0.511 1.143-1.143s-0.511-1.143-1.143-1.143c-0.006 0-0.011 0-0.017 0z" />
+                            <path
+                                d="M17.143 8c0-0.005 0-0.010 0-0.016 0-0.631-0.511-1.143-1.143-1.143s-1.143 0.511-1.143 1.143c0 0.006 0 0.011 0 0.017v-0.001 15.999c0 0.005 0 0.010 0 0.016 0 0.631 0.511 1.143 1.143 1.143s1.143-0.511 1.143-1.143c0-0.006 0-0.011 0-0.017v0.001z" />
+                            <path
+                                d="M1.143 0c-0.631 0-1.143 0.511-1.143 1.143v0 29.713c0 0.631 0.512 1.143 1.143 1.143h29.713c0.631 0 1.143-0.511 1.143-1.143v0-29.713c0-0.631-0.511-1.143-1.143-1.143zM2.286 2.286h27.428v27.428h-27.428z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="block-container" id="block5">
+                    <div class="grid-item-add" id="addItem">
+                        <svg class="add-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40"
+                            x="0px" y="0px">
+                            <title>plus-box</title>
+                            <path
+                                d="M8 14.857c-0.005 0-0.010 0-0.016 0-0.631 0-1.143 0.511-1.143 1.143s0.511 1.143 1.143 1.143c0.006 0 0.011 0 0.017 0h15.998c0.005 0 0.010 0 0.016 0 0.631 0 1.143-0.511 1.143-1.143s-0.511-1.143-1.143-1.143c-0.006 0-0.011 0-0.017 0z" />
+                            <path
+                                d="M17.143 8c0-0.005 0-0.010 0-0.016 0-0.631-0.511-1.143-1.143-1.143s-1.143 0.511-1.143 1.143c0 0.006 0 0.011 0 0.017v-0.001 15.999c0 0.005 0 0.010 0 0.016 0 0.631 0.511 1.143 1.143 1.143s1.143-0.511 1.143-1.143c0-0.006 0-0.011 0-0.017v0.001z" />
+                            <path
+                                d="M1.143 0c-0.631 0-1.143 0.511-1.143 1.143v0 29.713c0 0.631 0.512 1.143 1.143 1.143h29.713c0.631 0 1.143-0.511 1.143-1.143v0-29.713c0-0.631-0.511-1.143-1.143-1.143zM2.286 2.286h27.428v27.428h-27.428z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="block-container" id="block6">
+                    <div class="grid-item-add" id="addItem">
+                        <svg class="add-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 40"
+                            x="0px" y="0px">
+                            <title>plus-box</title>
+                            <path
+                                d="M8 14.857c-0.005 0-0.010 0-0.016 0-0.631 0-1.143 0.511-1.143 1.143s0.511 1.143 1.143 1.143c0.006 0 0.011 0 0.017 0h15.998c0.005 0 0.010 0 0.016 0 0.631 0 1.143-0.511 1.143-1.143s-0.511-1.143-1.143-1.143c-0.006 0-0.011 0-0.017 0z" />
+                            <path
+                                d="M17.143 8c0-0.005 0-0.010 0-0.016 0-0.631-0.511-1.143-1.143-1.143s-1.143 0.511-1.143 1.143c0 0.006 0 0.011 0 0.017v-0.001 15.999c0 0.005 0 0.010 0 0.016 0 0.631 0.511 1.143 1.143 1.143s1.143-0.511 1.143-1.143c0-0.006 0-0.011 0-0.017v0.001z" />
+                            <path
+                                d="M1.143 0c-0.631 0-1.143 0.511-1.143 1.143v0 29.713c0 0.631 0.512 1.143 1.143 1.143h29.713c0.631 0 1.143-0.511 1.143-1.143v0-29.713c0-0.631-0.511-1.143-1.143-1.143zM2.286 2.286h27.428v27.428h-27.428z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Modal for block selection -->
+    <div id="blockModal" class="modal">
+        <div class="modal-content">
+            <!-- Images of block options will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <!-- start of blocks used -->
+
+    <section class="palette-blocks-used">
+        <h2>Blocks Used</h2>
+        <div class="used-blocks-grid">
+            <div class="used-block-container">
+                <div class="block-image">
+                    <img src="" alt="">
+                </div>
+                <p>Block Item</p>
+
+            </div>
+            <div class="used-block-container">
+                <div class="block-image">
+                    <img src="" alt="">
+                </div>
+                <p>Block Item</p>
+
+            </div>
+            <div class="used-block-container">
+                <div class="block-image">
+                    <img src="" alt="">
+                </div>
+                <p>Block Item</p>
+
+            </div>
+            <div class="used-block-container">
+                <div class="block-image">
+                    <img src="" alt="">
+                </div>
+                <p>Block Item</p>
+
+            </div>
+            <div class="used-block-container">
+                <div class="block-image">
+                    <img src="" alt="">
+                </div>
+                <p>Block Item</p>
+
+            </div>
+            <div class="used-block-container">
+                <div class="block-image">
+                    <img src="" alt="">
+                </div>
+                <p>Block Item</p>
+
+            </div>
+        </div>
+
+        <!-- download buttons -->
+        <div class="complete-palette-btn">
+            <img src="./images/bee.png" alt="minecraft bee png" class="second-bee-img">
+            <button class="btn universal-btn">Download</button>
+            <button class="btn universal-btn">Share</button>
+        </div>
+    </section>
+
+    <!-- end of blocks used -->
+    <!-- end of palette generator -->
+
+
+    <!-- palette section -->
+
+    <section class="palette-preview" id="palettePreview">
+        <h2>Featured Palettes</h2>
+        <!-- see all palettes button -->
+        <!-- <button class="btn see-all-btn">See All</button> -->
+        <button class="btn btn see-all-btn"><a href="./palettes.html" class="startGenerating-btn">See All
+            </a></button>
+
+        <!-- palette gallery -->
+        <div class="card-gallery">
+            <!-- card container -->
+            <div class="card-palette">
+                <div class="palette-container">
+                    <img src="./images/palette1.jpg" alt="">
+                </div>
+                <div class="palette-details">
+                    <h3>Cottage Palette</h3>
+                    <p>301</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 2" viewBox="0 0 100 125" x="0px" y="0px">
+                        <polygon
+                            points="13.61 39.32 13.61 33.25 13.61 27.19 7.55 27.19 7.55 33.25 7.55 39.32 7.55 45.38 7.55 51.44 13.61 51.44 13.61 45.38 13.61 39.32" />
+                        <rect x="13.61" y="51.44" width="6.06" height="6.06" />
+                        <rect x="13.61" y="21.12" width="6.06" height="6.06" />
+                        <rect x="19.68" y="57.51" width="6.06" height="6.06" />
+                        <polygon
+                            points="19.68 39.32 19.68 45.38 25.74 45.38 25.74 39.32 25.74 33.25 19.68 33.25 19.68 39.32" />
+                        <rect x="25.74" y="63.57" width="6.06" height="6.06" />
+                        <rect x="25.74" y="27.19" width="6.06" height="6.06" />
+                        <polygon
+                            points="31.81 21.12 37.87 21.12 37.87 15.06 31.81 15.06 25.74 15.06 19.68 15.06 19.68 21.12 25.74 21.12 31.81 21.12" />
+                        <rect x="31.81" y="69.64" width="6.06" height="6.06" />
+                        <rect x="37.87" y="75.7" width="6.06" height="6.06" />
+                        <rect x="37.87" y="21.12" width="6.06" height="6.06" />
+                        <polygon
+                            points="43.94 81.77 43.94 87.83 50 87.83 56.06 87.83 56.06 81.77 50 81.77 43.94 81.77" />
+                        <polygon points="50 33.25 56.06 33.25 56.06 27.19 50 27.19 43.94 27.19 43.94 33.25 50 33.25" />
+                        <rect x="56.06" y="75.7" width="6.06" height="6.06" />
+                        <rect x="56.06" y="21.12" width="6.06" height="6.06" />
+                        <rect x="62.13" y="69.64" width="6.06" height="6.06" />
+                        <rect x="68.19" y="63.57" width="6.06" height="6.06" />
+                        <polygon
+                            points="74.26 21.12 80.32 21.12 80.32 15.06 74.26 15.06 68.19 15.06 62.13 15.06 62.13 21.12 68.19 21.12 74.26 21.12" />
+                        <rect x="74.26" y="57.51" width="6.06" height="6.06" />
+                        <rect x="80.32" y="51.44" width="6.06" height="6.06" />
+                        <rect x="80.32" y="21.12" width="6.06" height="6.06" />
+                        <polygon
+                            points="86.39 27.19 86.39 33.25 86.39 39.32 86.39 45.38 86.39 51.44 92.45 51.44 92.45 45.38 92.45 39.32 92.45 33.25 92.45 27.19 86.39 27.19" />
+                    </svg>
+                </div>
+            </div>
+            <div class="card-palette">
+                <div class="palette-container">
+                    <img src="./images/palette2.jpg" alt="">
+                </div>
+                <div class="palette-details">
+                    <h3>Rustic Palette</h3>
+                    <p>301</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 2" viewBox="0 0 100 125" x="0px" y="0px">
+                        <polygon
+                            points="13.61 39.32 13.61 33.25 13.61 27.19 7.55 27.19 7.55 33.25 7.55 39.32 7.55 45.38 7.55 51.44 13.61 51.44 13.61 45.38 13.61 39.32" />
+                        <rect x="13.61" y="51.44" width="6.06" height="6.06" />
+                        <rect x="13.61" y="21.12" width="6.06" height="6.06" />
+                        <rect x="19.68" y="57.51" width="6.06" height="6.06" />
+                        <polygon
+                            points="19.68 39.32 19.68 45.38 25.74 45.38 25.74 39.32 25.74 33.25 19.68 33.25 19.68 39.32" />
+                        <rect x="25.74" y="63.57" width="6.06" height="6.06" />
+                        <rect x="25.74" y="27.19" width="6.06" height="6.06" />
+                        <polygon
+                            points="31.81 21.12 37.87 21.12 37.87 15.06 31.81 15.06 25.74 15.06 19.68 15.06 19.68 21.12 25.74 21.12 31.81 21.12" />
+                        <rect x="31.81" y="69.64" width="6.06" height="6.06" />
+                        <rect x="37.87" y="75.7" width="6.06" height="6.06" />
+                        <rect x="37.87" y="21.12" width="6.06" height="6.06" />
+                        <polygon
+                            points="43.94 81.77 43.94 87.83 50 87.83 56.06 87.83 56.06 81.77 50 81.77 43.94 81.77" />
+                        <polygon points="50 33.25 56.06 33.25 56.06 27.19 50 27.19 43.94 27.19 43.94 33.25 50 33.25" />
+                        <rect x="56.06" y="75.7" width="6.06" height="6.06" />
+                        <rect x="56.06" y="21.12" width="6.06" height="6.06" />
+                        <rect x="62.13" y="69.64" width="6.06" height="6.06" />
+                        <rect x="68.19" y="63.57" width="6.06" height="6.06" />
+                        <polygon
+                            points="74.26 21.12 80.32 21.12 80.32 15.06 74.26 15.06 68.19 15.06 62.13 15.06 62.13 21.12 68.19 21.12 74.26 21.12" />
+                        <rect x="74.26" y="57.51" width="6.06" height="6.06" />
+                        <rect x="80.32" y="51.44" width="6.06" height="6.06" />
+                        <rect x="80.32" y="21.12" width="6.06" height="6.06" />
+                        <polygon
+                            points="86.39 27.19 86.39 33.25 86.39 39.32 86.39 45.38 86.39 51.44 92.45 51.44 92.45 45.38 92.45 39.32 92.45 33.25 92.45 27.19 86.39 27.19" />
+                    </svg>
+                </div>
+            </div>
+            <div class="card-palette">
+                <div class="palette-container">
+                    <img src="./images/palette3.jpg" alt="">
+                </div>
+                <div class="palette-details">
+                    <h3>Rustic Palette</h3>
+                    <p>301</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 2" viewBox="0 0 100 125" x="0px" y="0px">
+                        <polygon
+                            points="13.61 39.32 13.61 33.25 13.61 27.19 7.55 27.19 7.55 33.25 7.55 39.32 7.55 45.38 7.55 51.44 13.61 51.44 13.61 45.38 13.61 39.32" />
+                        <rect x="13.61" y="51.44" width="6.06" height="6.06" />
+                        <rect x="13.61" y="21.12" width="6.06" height="6.06" />
+                        <rect x="19.68" y="57.51" width="6.06" height="6.06" />
+                        <polygon
+                            points="19.68 39.32 19.68 45.38 25.74 45.38 25.74 39.32 25.74 33.25 19.68 33.25 19.68 39.32" />
+                        <rect x="25.74" y="63.57" width="6.06" height="6.06" />
+                        <rect x="25.74" y="27.19" width="6.06" height="6.06" />
+                        <polygon
+                            points="31.81 21.12 37.87 21.12 37.87 15.06 31.81 15.06 25.74 15.06 19.68 15.06 19.68 21.12 25.74 21.12 31.81 21.12" />
+                        <rect x="31.81" y="69.64" width="6.06" height="6.06" />
+                        <rect x="37.87" y="75.7" width="6.06" height="6.06" />
+                        <rect x="37.87" y="21.12" width="6.06" height="6.06" />
+                        <polygon
+                            points="43.94 81.77 43.94 87.83 50 87.83 56.06 87.83 56.06 81.77 50 81.77 43.94 81.77" />
+                        <polygon points="50 33.25 56.06 33.25 56.06 27.19 50 27.19 43.94 27.19 43.94 33.25 50 33.25" />
+                        <rect x="56.06" y="75.7" width="6.06" height="6.06" />
+                        <rect x="56.06" y="21.12" width="6.06" height="6.06" />
+                        <rect x="62.13" y="69.64" width="6.06" height="6.06" />
+                        <rect x="68.19" y="63.57" width="6.06" height="6.06" />
+                        <polygon
+                            points="74.26 21.12 80.32 21.12 80.32 15.06 74.26 15.06 68.19 15.06 62.13 15.06 62.13 21.12 68.19 21.12 74.26 21.12" />
+                        <rect x="74.26" y="57.51" width="6.06" height="6.06" />
+                        <rect x="80.32" y="51.44" width="6.06" height="6.06" />
+                        <rect x="80.32" y="21.12" width="6.06" height="6.06" />
+                        <polygon
+                            points="86.39 27.19 86.39 33.25 86.39 39.32 86.39 45.38 86.39 51.44 92.45 51.44 92.45 45.38 92.45 39.32 92.45 33.25 92.45 27.19 86.39 27.19" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of palette section -->
+
+    <!-- start of footer -->
+
+    <footer>
+        <div class="footer-logo">
+            <img src="./images/pixelcraft-title.png" alt="footer logo">
+        </div>
+        <div class="footer-content">
+            <ul class="footer-nav">
+                <li class="footer-item">
+                    <a class="footer-link " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link " aria-current="page" href="#paletteGenerator">Generator</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link " aria-current="page" href="#palettePreview">Featured</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link " aria-current="page" href="./palettes.html">Explore</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <!-- my script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

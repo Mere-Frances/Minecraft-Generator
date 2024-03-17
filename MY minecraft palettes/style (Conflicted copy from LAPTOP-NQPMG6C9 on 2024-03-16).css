@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;      /* ADDED */
+    top: 0;       /* ADDED */
+    width: 100%;  /* ADDED */
+    z-index: 30;
+}
+
+.logo-container {
+    width: 45rem;
+    height: 10vh;
+    background-image: url(./images/pixelcraft-title.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* nav bar content */
+.nav-item .nav-link {
+    font-family: Anek Latin;
+    text-transform: uppercase;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #20BB2F;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+/* nav text */
+.nav-link.active {
+    color: #20BB2F;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+/* nav bar */
+.navbar {
+    background-color: #373737;
+}
+
+
+/* header */
+.header-hero {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 92vh;
+    background-image: url(./images/mcbackground2..jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+}
+
+.header-container p {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    width: 65%;
+    margin: 25px 0 50px 0;
+}
+
+.btn, .universal-button {
+    width: 20rem;
+    height: 5rem;
+    border-radius: 0px;
+    background: #1A8B25;
+    box-shadow: inset 15px 15px 36px #125f19,
+        inset -15px -15px 36px #22b731;
+    box-shadow: 15px 15px 36px #072c0a;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.startGenerating-btn {
+    color: white;
+}
+
+/* end of hero header */
+
+
+/* start of palette preview section */
+
+/* Palette header */
+.palette-preview {
+    width: 100%;
+    height: 150vh;
+    padding-bottom: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.palette-preview h2 {
+    font-size: 7rem;
+    padding: 5rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#20BB2F;
+}
+
+.see-all-btn {
+    width: 10rem;
+    position: relative;
+    left:43rem;
+    margin-bottom: 2rem;
+    box-shadow: 10px 10px 26px #072c0a;
+}
+
+/* palette gallery container */
+.card-gallery {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 85%;
+    height: 85%;
+    gap:5rem;
+}
+
+/* palette display card */
+.card-palette {
+    height: 95%;
+    width: 30%;
+    background-color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+/* image container */
+.palette-container {
+    width: 100%;
+    height: 90%;
+    margin-bottom:.5rem;
+}
+.palette-container img {
+    width: 100%;
+    height: 100%;
+}
+
+/* palette details */
+.palette-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 6rem;
+    padding: 0 1rem;
+}
+
+.palette-details h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-right:10rem;
+}
+
+.palette-details p {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.palette-details svg {
+    transform: scale(.7);
+}
+
+
+/* palette generator start */
+
+
+.palette-generator-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 130vh;
+    background-color: transparent;
+    width: 100%;
+}
+
+.palette-generator-section h2 {
+    font-size: 7rem;
+    padding: 5rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#20BB2F;
+}
+
+.randomize-btn {
+    margin-bottom: 3rem;
+}
+
+.generator-container-grid {
+    width: 60%;
+    height: 65%;
+    background-color: #E9E9E9;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* columns: 3;
+    right: 2; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:1rem;
+    padding:3rem;
+}
+
+.palette-item {
+    height: 90%;
+    width: 90%;
+    border-style: dashed;
+    border-color: #a4a4a4;
+}
+
+.grid-item-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.add-icon {
+    padding:0 3rem;
+    padding-top:1rem;
+    height: 60%;
+    width: 60%;
+    background-color: transparent;
+}
+
+.add-icon svg {
+}
